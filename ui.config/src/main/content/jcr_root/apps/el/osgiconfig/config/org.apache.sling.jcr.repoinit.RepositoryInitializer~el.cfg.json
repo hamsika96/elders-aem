@@ -1,0 +1,7 @@
+{
+    "scripts": [
+        "create path (sling:OrderedFolder) /content/dam/el",
+        "create path (nt:unstructured) /content/dam/el/jcr:content",
+        "set properties on /content/dam/el/jcr:content\n  set cq:conf{String} to /conf/el\n  set jcr:title{String} to \"Elders Commons\"\nend"
+    ]
+}
